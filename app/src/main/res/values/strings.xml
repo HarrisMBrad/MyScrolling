@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MyScrolling</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_text">What is DevSecOps?
+It\'s a term for a security-focused, continuous delivery SDLC. It\'s part of the agile active integration dev process. Introduced CD/CI verified injections to audit and conduct penetration testing.
+OSS (<i>open-source software</i>vulnerabilities exist in libraries that we import just as much as code we write.
+… DevSecOps continuity is continuous everything paradigm baked right in.
+
+Pipelines of commits our team makes are monitored and adjusted to scale as the business expands. | https://www.atlassian.com/continuous-delivery/pipeline
+*Invest in security unit tests and static analyzers.
+SAST - (static analysis security testing)
+DAST - (dynamic analysis security)
+<br></br>
+
+<b>Microservices</b>
+At the operating system shell level, shell commands can be composed to create a pipeline of higher-level functionality. Microservices are a level of composition that happens between Web Services. A Microservice is a web service that is responsible for one piece of domain logic. Microservices interact with each other via simple network protocols like REST. This harmonious interaction between microservices is microservice architecture.
+|https://www.atlassian.com/continuous-delivery/microservices
+
+Service-Oriented Architecture (SOA) vs. Microservices
+Microservices can be thought of as a lite version of SOA.
+The distinction between the two architecture types is the bureaucratic classification of service types.
+SOA has 4 basic service types:
+Business
+Enterprise
+Application
+Infrastructure services
+These types define the related domain-specific responsibility of the underlying services.
+
+The adoption of microservices should be seen as a journey rather than the immediate goal for a team.
+*Maybe use these as your focused quality controls.
+as Microservices only have two service types:
+Functional
+Infrastructure
+
+<b>Keep communication between services simple with a RESTful API</b>
+Identify the most well-defined service boundaries within an established monolith application and iteratively work to decouple them into their microservice.
+Chop it up…
+
+
+
+<b>What is a container?</b>
+A container is a package of software that includes all dependencies: code, runtime, configuration, and system libraries so that it can run on any host system. At runtime, the container is also granted its isolated slice of operating system resources like CPU, RAM, and Networking.
+|https://www.atlassian.com/continuous-delivery/microservices/containers
+
+When visualizing a machine using either virtual machines (VMs) or Containers, the host machine’s resources are essentially cut into slices for the visualized components to use.
+Containers can be utilized in an existing host operating system.
+Docker has a public repository full of containers that house popular open-source tools. *Docker also offers a suite of utilities to launch, orchestrate and manage a cluster of containers. Docker is so widely used that its container definition system is supported by many third-party container management systems like Amazon ECS, and Kubernetes. Docker is a container runtime… while Kubernetes is a platform for running and managing containers… from many container runtimes.
+
+<b>Kubernetes</b>
+Kubernetes is an open-source container management system designed and released by Google. Kubernetes is used to create a distributed cluster of hosted containers. Kubernetes provides robust container cluster orchestration tools that include health monitoring, deployment, failures, and auto-scaling.
+Kubernetes can be deployed on both physical or virtual hardware. MiniKube is a lightweight version of Kubernetes that is used for development and will create a VM on your local machine that deploys a simple cluster with only one node. (*Add notes from lunch-break to files)|https://www.atlassian.com/continuous-delivery/microservices/kubernetes
+
+
+<b>Amazon ECS</b>
+Amazon Elastic Container Service Is an Amazon cloud-based service that makes it easy to manage Docker containers in a cluster. ECS has a powerful API and is tightly integrated with the rest of the Amazon cloud suite enabling powerful DevOps workflow.
+
+
+<b>Openshift</b>
+The Openshift container platform is an enterprise Red Hat Linux product. It is a hybrid product offering Kubernetes and Openshift cloud integration. Openshift is a trusted enterprise cloud platform that integrates with other Red Hat tools.
+
+Containers can aid streamline both the local development process and remote deployment while ensuring that we deliver a higher quality software product to our customers. ibid...
+
+
+    </string>
+    <string name="add_button_comment">ADD COMMENT</string>
+</resources>
